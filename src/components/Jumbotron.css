@@ -1,0 +1,46 @@
+.jumbotron {
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.jt-container {
+    max-width: 1024px;
+    margin: 0px auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+}
+
+.jt-content h1 {
+    font-size: 60px;
+    font-weight: 900;
+    margin-top: 15px;
+    background: -webkit-linear-gradient(-70deg, #E9AF68 0%, #F0E398 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.jt-content p {
+    font-size: 18px;
+    line-height: 24px;
+}
+
+.jt-image img {
+    max-width: 312px;
+}
+
+.jt-social-links img {
+    max-width: 40px;
+}
+
+.jt-social-links a {
+    display: inline-block;
+    margin-right: 15px;
+}
+
+.jt-social-links {
+    padding: 0px !important;
+    margin-top: 55px;
+}
