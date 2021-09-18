@@ -1,0 +1,35 @@
+.about {
+    background-image: linear-gradient(-70deg, #E9AF68 0%, #F0E398 100%);
+}
+
+.about-container {
+    max-width: 1024px;
+    margin: 0px auto;
+    padding: 10px;
+    color: black;
+    padding-bottom: 50px;
+}
+
+.about-container h2 {
+    font-size: 48px;
+    text-align: center;
+    font-weight: 800;
+}
+
+.about-gallery {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 60px;
+    margin-bottom: 60px;
+}
+
+.about-gallery img {
+    max-width: 256px;
+    border-radius: 15px;
+}
+
+.about-container p {
+    text-align: center;
+    font-size: 18px;
+    line-height: 27px;
+}

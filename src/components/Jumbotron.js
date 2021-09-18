@@ -12,7 +12,7 @@ function Jumbotron() {
                 <div className='jt-content'>
                     <h1>Scrappy <br /> Squirrels</h1>
                     <p>
-                        Sneaky Squirrels is a collection of 10,000 randomly generated NFTs on the Ethereum Blockchain. Sneaky Squirrels are meant for buyers, creators, and developers who are completely new to the NFT ecosystem.
+                        Scrappy Squirrels is a collection of 10,000 randomly generated NFTs on the Ethereum Blockchain. Scrappy Squirrels are meant for buyers, creators, and developers who are completely new to the NFT ecosystem.
                     </p>
                     <p>
                         The community is built around learning about the NFT revolution, exploring its current use cases, discovering new applications, and finding members to collaborate on exciting projects with.
