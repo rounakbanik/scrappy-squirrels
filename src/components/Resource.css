@@ -1,0 +1,23 @@
+.resource {
+    background-color: #222;
+    width: 300px;
+    margin-left: 25px;
+    margin-right: 15px;
+    text-decoration: none;
+    color: white;
+}
+
+.resource img {
+    width: 100%;
+    height: 250px;
+    object-fit: cover;
+}
+
+.resource p {
+    font-size: 14px;
+    text-decoration: none;
+}
+
+.res-content {
+    padding: 15px;
+}

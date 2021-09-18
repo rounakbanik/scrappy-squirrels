@@ -1,0 +1,27 @@
+.mbr-container {
+    max-width: 1024px;
+    margin: 0px auto;
+    padding: 10px;
+    padding-bottom: 50px;
+    padding-top: 30px;
+}
+
+.mbr-container h2 {
+    font-size: 48px;
+    margin-left: 10px;
+    padding: 20px;
+    background: -webkit-linear-gradient(-70deg, #a2facf 0%, #64acff 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.benefits {
+    display: flex;
+    justify-content: space-between;
+}
+
+.benefits > div {
+    flex-basis: 0;
+    flex-grow: 1;
+}

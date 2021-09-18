@@ -1,0 +1,24 @@
+.footer {
+    padding: 25px;
+}
+
+.footer p {
+    text-align: center;
+}
+
+.footer span {
+    background: -webkit-linear-gradient(-70deg, #a2facf 0%, #64acff 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.footer-social-media-links {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.footer-social-media-links > div {
+    margin: 5px 10px;
+}

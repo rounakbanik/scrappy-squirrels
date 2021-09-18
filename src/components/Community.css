@@ -1,0 +1,38 @@
+.community {
+    background-color: #1d1d1d;
+}
+
+.community-container {
+    max-width: 1024px;
+    margin: 0px auto;
+    padding: 10px;
+    padding-bottom: 50px;
+    padding-top: 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.community-container > div {
+    padding: 20px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.comm-image img {
+    max-width: 350px;
+}
+
+.community-container h2 {
+    font-size: 48px;
+    font-weight: 800;
+    background: -webkit-linear-gradient(-70deg, #E9AF68 0%, #F0E398 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.community-container p {
+    font-size: 18px;
+    line-height: 27px;
+}

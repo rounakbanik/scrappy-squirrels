@@ -1,0 +1,15 @@
+.ben {
+    display: flex;
+}
+
+.ben > div {
+    padding: 15px;
+}
+
+.ben img {
+    max-width: 70px;
+}
+
+.ben h3 {
+    font-size: 24px;
+}
