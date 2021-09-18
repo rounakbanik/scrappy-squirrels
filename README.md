@@ -1,6 +1,6 @@
-# Sneaky Squirrels
+# Scrappy Squirrels
 
-This repository contains the frontend code for the Sneaky Squirrels NFT project.
+This repository contains the frontend code for the Scrappy Squirrels NFT project.
 
 ## About
 
