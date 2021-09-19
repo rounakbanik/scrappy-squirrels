@@ -1,21 +1,26 @@
+.card-link {
+    text-decoration: none;
+}
+
 .resource {
     background-color: #222;
     width: 300px;
     margin-left: 25px;
     margin-right: 15px;
-    text-decoration: none;
     color: white;
+    border-radius: 15px;
 }
 
 .resource img {
     width: 100%;
     height: 250px;
     object-fit: cover;
+    border-radius: 15px 15px 0px 0px;
 }
 
 .resource p {
     font-size: 14px;
-    text-decoration: none;
+    opacity: 70%;
 }
 
 .res-content {

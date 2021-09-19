@@ -1,12 +1,12 @@
 import './Community.css';
-import placeholder from '../images/placeholder.png';
+import community from '../images/community.png';
 
 function Community() {
     return (
         <section className='community'>
             <div className='community-container'>
                 <div className='comm-image'>
-                    <img src={placeholder} alt="Placeholder" />
+                    <img src={community} alt="Placeholder" />
                 </div>
                 <div className='comm-content'>
                     <h2>Join the Community!</h2>

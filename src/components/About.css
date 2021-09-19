@@ -1,5 +1,5 @@
 .about {
-    background-image: linear-gradient(-70deg, #E9AF68 0%, #F0E398 100%);
+    background-image: linear-gradient(-70deg, #FFE1BC 0%, #FFF 100%);
 }
 
 .about-container {
@@ -26,6 +26,7 @@
 .about-gallery img {
     max-width: 256px;
     border-radius: 15px;
+    border: 1px solid black;
 }
 
 .about-container p {

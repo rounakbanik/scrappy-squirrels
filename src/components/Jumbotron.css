@@ -8,8 +8,12 @@
     margin: 0px auto;
     display: flex;
     justify-content: space-between;
-    align-items: center;
+    align-items: flex-start;
     padding: 10px;
+}
+
+.jt-content {
+    margin-right: 50px;
 }
 
 .jt-content h1 {
@@ -27,8 +31,14 @@
     line-height: 27px;
 }
 
+.jt-image {
+    margin-top: 30px;
+    margin-left: 50px;
+}
+
 .jt-image img {
     max-width: 312px;
+    border-radius: 15px;
 }
 
 .jt-social-links img {

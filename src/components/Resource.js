@@ -2,7 +2,7 @@ import './Resource.css';
 
 function Resource(props) {
     return (
-        <a href={props.link} target='_blank' rel='noreferrer'>
+        <a href={props.link} target='_blank' rel='noreferrer' className='card-link'>
             <div className='resource'>
                 <div>
                     <img src={props.img_src} alt={props.heading} />

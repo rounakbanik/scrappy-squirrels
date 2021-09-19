@@ -1,10 +1,10 @@
-import buildspace from '../images/buildspace.jpeg';
-import github from '../images/github.jpeg';
+import buildspace from '../images/buildspace.png';
+import github from '../images/github.png';
 
 const RESOURCES = [
     {
         img_src: buildspace,
-        heading: 'Buildspace',
+        heading: '_buildspace',
         text: 'The NFT development bootcamp where Scrappy Squirrels was conceptualized.',
         link: 'https://buildspace.so',
     },

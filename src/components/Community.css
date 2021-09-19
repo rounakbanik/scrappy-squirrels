@@ -10,7 +10,7 @@
     padding-top: 30px;
     display: flex;
     justify-content: space-between;
-    align-items: center;
+    align-items: flex-start;
 }
 
 .community-container > div {
@@ -19,8 +19,13 @@
     margin-right: 10px;
 }
 
+.comm-image {
+    margin-top: 45px;
+}
+
 .comm-image img {
     max-width: 350px;
+    border-radius: 15px;
 }
 
 .community-container h2 {
