@@ -32,3 +32,25 @@
     display: flex;
     justify-content: flex-start;
 }
+
+/* Mobile CSS */
+@media only screen and (max-width: 768px) {
+    .res-container {
+        text-align: center;
+    }
+    .res-items {
+        display: block;
+    }
+
+    .res-container h2 {
+        text-align: center;
+        font-size: 28px;
+    }
+
+    .res-container > p {
+        padding: 20px;
+        margin-left: 0px;
+        text-align: center;
+        font-size: 16px;
+    }
+}

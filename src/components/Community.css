@@ -41,3 +41,34 @@
     font-size: 18px;
     line-height: 27px;
 }
+
+/* Mobile CSS */
+@media only screen and (max-width: 768px) {
+    .community-container {
+        display: block;
+        text-align: center;
+    }
+
+    .comm-image {
+        margin: 10px auto;
+        padding: 15px;
+        margin: 10px;
+    }
+
+    .comm-image img {
+        max-width: 300px;
+        text-align: center;     
+    }
+
+    .community-container h2 {
+        font-size: 28px;
+        margin: 10px auto;
+        margin-bottom: 25px;
+    }
+
+    .community-container p {
+        font-size: 16px;
+        line-height: 24px;
+        padding: 15px;
+    }
+}

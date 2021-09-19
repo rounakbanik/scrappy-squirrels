@@ -34,3 +34,31 @@
     font-size: 18px;
     line-height: 27px;
 }
+
+/* Mobile CSS */
+@media only screen and (max-width: 768px) {
+    .about-container h2 {
+        font-size: 28px;
+        margin-top: 40px;
+    }
+
+    .about-gallery {
+        display: block;
+        text-align: center;
+        margin-bottom: 20px;
+    }
+
+    .about-gallery img {
+        display: block;
+        margin: 15px auto;
+        max-width: 200px;
+        border-radius: 15px;
+        border: 1px solid black;
+    }
+
+    .about-container p {
+        font-size: 16px;
+        line-height: 24px;
+        padding: 15px;
+    }
+}

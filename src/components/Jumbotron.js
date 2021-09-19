@@ -9,8 +9,11 @@ function Jumbotron() {
         <section className='jumbotron'>
 
             <div className='jt-container'>
+                <div className='jt-image'>
+                    <img src={squirrels} alt='Gallery of Squirrels' />
+                </div>
                 <div className='jt-content'>
-                    <h1>Scrappy <br /> Squirrels</h1>
+                    <h1>Scrappy <br className='desktop-only' /> Squirrels</h1>
                     <p>
                         Scrappy Squirrels is a collection of 10,000 randomly generated NFTs on the Ethereum Blockchain. Scrappy Squirrels are meant for buyers, creators, and developers who are completely new to the NFT ecosystem.
                     </p>
@@ -28,9 +31,6 @@ function Jumbotron() {
                             <img src={ig} alt='Instagram'></img>
                         </a>
                     </div>
-                </div>
-                <div className='jt-image'>
-                    <img src={squirrels} alt='Gallery of Squirrels' />
                 </div>
             </div>
 

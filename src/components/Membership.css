@@ -25,3 +25,15 @@
     flex-basis: 0;
     flex-grow: 1;
 }
+
+/* Mobile CSS */
+@media only screen and (max-width: 768px) {
+    .mbr-container h2 {
+        font-size: 28px;
+        text-align: center;
+    }
+
+    .benefits {
+        display: block;
+    }
+}

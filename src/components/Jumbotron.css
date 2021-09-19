@@ -9,6 +9,7 @@
     display: flex;
     justify-content: space-between;
     align-items: flex-start;
+    flex-direction: row-reverse;
     padding: 10px;
 }
 
@@ -53,4 +54,47 @@
 .jt-social-links {
     padding: 0px !important;
     margin-top: 55px;
+}
+
+/* Mobile CSS */
+@media only screen and (max-width: 768px) {
+
+    .desktop-only {
+        display: none;
+    }
+
+    .jt-container {
+        display: block;
+        text-align: center;
+    }
+
+    .jt-content {
+        margin-right: 0px;
+    }
+
+    .jt-image {
+        margin: 0px auto;
+    }
+
+    .jt-image img {
+        max-width: 256px;
+        margin: 0px auto;
+    }
+
+    .jt-content h1 {
+        font-size: 30px;
+        text-align: center;
+        padding: 15px;
+    }
+
+    .jt-content p {
+        font-size: 16px;
+        line-height: 24px;
+        padding: 5px 15px;
+    }
+
+    .jt-social-links {
+        padding: 0px !important;
+        margin-top: 30px;
+    }
 }

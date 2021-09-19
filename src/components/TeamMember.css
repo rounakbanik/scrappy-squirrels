@@ -19,3 +19,10 @@
     font-size: 18px;
     margin-top: 10px;
 }
+
+/* Mobile CSS */
+@media only screen and (max-width: 768px) {
+    .team-member h3 {
+        font-size: 16px;
+    }
+}
