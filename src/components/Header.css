@@ -8,11 +8,14 @@ header {
     margin: 0 auto;
 }
 
-.nav-links a {
+.nav-links a, .nav-links button {
     text-decoration: none;
     text-transform: uppercase;
     color: white;
     font-size: 0.8rem;
+    background: inherit;
+    border: none;
+    cursor: pointer;
 }
 
 .nav-links div {

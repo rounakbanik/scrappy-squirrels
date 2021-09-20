@@ -1,4 +1,4 @@
-import { Fragment } from 'react';
+import { Fragment, useRef } from 'react';
 import './App.css';
 import About from './components/About';
 import Community from './components/Community';
@@ -10,16 +10,27 @@ import Team from './components/Team';
 import Footer from './components/Footer';
 
 function App() {
+
+  const membershipRef = useRef(null);
+  const resourcesRef = useRef(null);
+  const teamRef = useRef(null);
+
+  const scrollHandler = (section) => {
+    if (section === 'membership') membershipRef.current.scrollIntoView({ behavior: 'smooth' });
+    if (section === 'resources') resourcesRef.current.scrollIntoView({ behavior: 'smooth' });
+    if (section === 'team') teamRef.current.scrollIntoView({ behavior: 'smooth' });
+  }
+
   return (
     <Fragment>
-      <Header />
+      <Header scrollHandler={scrollHandler} />
       <main>
         <Jumbotron />
         <About />
         <Community />
-        <Membership />
-        <Resources />
-        <Team />
+        <Membership ref={membershipRef} />
+        <Resources ref={resourcesRef} />
+        <Team ref={teamRef} />
       </main>
       <Footer />
     </Fragment>

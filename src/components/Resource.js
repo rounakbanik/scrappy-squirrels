@@ -1,6 +1,6 @@
 import './Resource.css';
 
-function Resource(props) {
+const Resource = (props) => {
     return (
         <a href={props.link} target='_blank' rel='noreferrer' className='card-link'>
             <div className='resource'>

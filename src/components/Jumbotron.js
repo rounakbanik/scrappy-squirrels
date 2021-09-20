@@ -21,13 +21,13 @@ function Jumbotron() {
                         The community is built around learning about the NFT revolution, exploring its current use cases, discovering new applications, and finding members to collaborate on exciting projects with.
                     </p>
                     <div className='jt-social-links'>
-                        <a href='https://twitter.com'>
+                        <a href='https://twitter.com/ScrappyNfts' target='_blank' rel='noreferrer'>
                             <img src={twttr} alt='Twitter'></img>
                         </a>
                         <a href='https://discord.com'>
                             <img src={dc} alt='Discord'></img>
                         </a>
-                        <a href='https://instagram.com'>
+                        <a href='https://www.instagram.com/scrappysquirrels/' target='_blank' rel='noreferrer'>
                             <img src={ig} alt='Instagram'></img>
                         </a>
                     </div>

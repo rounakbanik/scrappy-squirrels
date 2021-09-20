@@ -1,10 +1,11 @@
 import './Membership.css';
 import BENEFITS from '../data/benefits-data';
 import Benefit from './Benefit';
+import { forwardRef } from 'react';
 
-function Membership() {
+const Membership = forwardRef((props, ref) => {
     return (
-        <section className='membership'>
+        <section className='membership' id='membership' ref={ref}>
             <div className='mbr-container'>
                 <h2>Become a Member.</h2>
                 <div className='benefits'>
@@ -23,6 +24,6 @@ function Membership() {
 
         </section>
     )
-}
+});
 
 export default Membership;

@@ -6,12 +6,16 @@ import hamburger from '../images/hamburger.jpeg';
 import logo from '../images/logo.png';
 import { Fragment, useState } from 'react';
 
-function Header() {
+function Header(props) {
 
     const [showMenu, setShowMenu] = useState(false);
 
     const showMenuHandler = () => {
         setShowMenu(prevState => !prevState);
+    }
+
+    const buttonClickHandler = (section_text) => {
+        props.scrollHandler(section_text);
     }
 
     return (
@@ -22,27 +26,27 @@ function Header() {
                 </div>
                 <nav className='nav-links'>
                     <div>
-                        <a href='#membership'>Membership</a>
+                        <button onClick={() => { buttonClickHandler('membership') }}>Membership</button>
                     </div>
                     <div>
-                        <a href='#resources'>Resources</a>
+                        <button onClick={() => { buttonClickHandler('resources') }}>Resources</button>
                     </div>
                     <div>
-                        <a href='#team'>Team</a>
+                        <button onClick={() => { buttonClickHandler('team') }}>Team</button>
                     </div>
                     <div className='social-media-links'>
                         <div>
-                            <a href='https://discord.com'>
+                            <a href='https://discord.com' target='_blank' rel='noreferrer'>
                                 <img src={discord_white} alt="Discord" />
                             </a>
                         </div>
                         <div>
-                            <a href='https://instagram.com'>
+                            <a href='https://www.instagram.com/scrappysquirrels/' target='_blank' rel='noreferrer'>
                                 <img src={instagram_white} alt="Instagram" />
                             </a>
                         </div>
                         <div>
-                            <a href='https://twitter.com'>
+                            <a href='https://twitter.com/ScrappyNfts' target='_blank' rel='noreferrer'>
                                 <img src={twitter_white} alt="Twitter" />
                             </a>
                         </div>
@@ -54,12 +58,9 @@ function Header() {
             </header>
             {showMenu && <div className='mobile-navigation-expanded'
             >
-                <a href='#membership'>Membership</a>
-                <a href='#resources'>Resources</a>
-                <a href='#team'>Team</a>
-                <a href='https://instagram.com'>Instagram</a>
-                <a href='https://discord.com'>Discord</a>
-                <a href='https://twitter.com'>Twitter</a>
+                <a href='https://www.instagram.com/scrappysquirrels/' target='_blank' rel='noreferrer'>Instagram</a>
+                <a href='https://discord.com' target='_blank' rel='noreferrer'>Discord</a>
+                <a href='https://twitter.com/ScrappyNfts' target='_blank' rel='noreferrer'>Twitter</a>
             </div>}
         </Fragment >
     )
