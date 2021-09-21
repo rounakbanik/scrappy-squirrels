@@ -23,7 +23,7 @@ const BENEFITS = [
     {
         img_src: squirrel,
         heading: 'Own a Provably Rare Squirrel',
-        text: 'Buying a squirrel will grant you ownership to one of the only original 10,000 Sneaky Squirrels that will ever exist. Owning a squirrel also gives you complete commercial rights over the squirrel.',
+        text: 'Buying a squirrel will grant you ownership to one of the only original 10,000 Scrappy Squirrels that will ever exist. Owning a squirrel also gives you complete commercial rights over the squirrel.',
     },
     {
         img_src: guild,
