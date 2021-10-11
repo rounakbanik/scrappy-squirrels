@@ -36,7 +36,7 @@ function Header(props) {
                     </div>
                     <div className='social-media-links'>
                         <div>
-                            <a href='https://discord.gg/5WeaXPjDrb' target='_blank' rel='noreferrer'>
+                            <a href='https://discord.gg/8UqJXTX7Kd' target='_blank' rel='noreferrer'>
                                 <img src={discord_white} alt="Discord" />
                             </a>
                         </div>
@@ -59,7 +59,7 @@ function Header(props) {
             {showMenu && <div className='mobile-navigation-expanded'
             >
                 <a href='https://www.instagram.com/scrappysquirrels/' target='_blank' rel='noreferrer'>Instagram</a>
-                <a href='https://discord.gg/5WeaXPjDrb' target='_blank' rel='noreferrer'>Discord</a>
+                <a href='https://discord.gg/8UqJXTX7Kd' target='_blank' rel='noreferrer'>Discord</a>
                 <a href='https://twitter.com/ScrappyNfts' target='_blank' rel='noreferrer'>Twitter</a>
             </div>}
         </Fragment >

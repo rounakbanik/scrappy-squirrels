@@ -24,7 +24,7 @@ function Jumbotron() {
                         <a href='https://twitter.com/ScrappyNfts' target='_blank' rel='noreferrer'>
                             <img src={twttr} alt='Twitter'></img>
                         </a>
-                        <a href='https://discord.gg/5WeaXPjDrb' target='_blank' rel='noreferrer'>
+                        <a href='https://discord.gg/8UqJXTX7Kd' target='_blank' rel='noreferrer'>
                             <img src={dc} alt='Discord'></img>
                         </a>
                         <a href='https://www.instagram.com/scrappysquirrels/' target='_blank' rel='noreferrer'>

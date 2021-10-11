@@ -9,7 +9,7 @@ function Footer() {
             <p>VERIFIED SMART CONTRACT ADDRESS: <span>Coming soon!</span></p>
             <div className='footer-social-media-links'>
                 <div>
-                    <a href='https://discord.gg/5WeaXPjDrb'>
+                    <a href='https://discord.gg/8UqJXTX7Kd'>
                         <img src={discord_white} alt="Discord" />
                     </a>
                 </div>
