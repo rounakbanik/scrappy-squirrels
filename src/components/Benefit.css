@@ -1,21 +1,38 @@
 .ben {
     display: flex;
+    align-items: flex-start;
 }
 
-.ben > div {
+.goal {
     padding: 15px;
+    flex: 6;
 }
 
-.ben img {
-    max-width: 70px;
-}
-
-.ben h3 {
+.goal h3 {
     font-size: 24px;
+    margin-top: 20px;
+}
+
+.goal a, .goal a:visited {
+    color: white;
 }
 
 .ben p {
     opacity: 0.7;
+}
+
+.milestone {
+    padding: 30px;
+    flex: 1;
+}
+
+.milestone h3 {
+    font-size: 48px;
+    background: -webkit-linear-gradient(-70deg, #a2facf 0%, #64acff 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    margin-top: 0px;
 }
 
 /* Mobile CSS */
@@ -23,7 +40,21 @@
     .ben {
         padding: 5px;
     }
-    .ben h3 {
+
+    .goal {
+        flex: 4;
+    }
+
+    .goal h3 {
         font-size: 20px;
+    }
+
+    .milestone {
+        padding: 10px;
+    }
+
+    .milestone h3 {
+        font-size: 25px;
+        margin-top: 25px;
     }
 }

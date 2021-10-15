@@ -1,12 +1,12 @@
-import buildspace from '../images/buildspace.png';
+import medium from '../images/buildspace.png';
 import github from '../images/github.png';
 
 const RESOURCES = [
     {
-        img_src: buildspace,
-        heading: '_buildspace',
-        text: 'The NFT development bootcamp where Scrappy Squirrels was conceptualized.',
-        link: 'https://buildspace.so',
+        img_src: medium,
+        heading: 'Medium',
+        text: 'A Publication on everything blockchain, NFTs, and web3.',
+        link: 'https://medium.com/scrappy-squirrels',
     },
     {
         img_src: github,

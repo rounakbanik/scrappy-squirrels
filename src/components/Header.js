@@ -26,7 +26,7 @@ function Header(props) {
                 </div>
                 <nav className='nav-links'>
                     <div>
-                        <button onClick={() => { buttonClickHandler('membership') }}>Membership</button>
+                        <button onClick={() => { buttonClickHandler('roadmap') }}>Roadmap</button>
                     </div>
                     <div>
                         <button onClick={() => { buttonClickHandler('resources') }}>Resources</button>

@@ -16,7 +16,7 @@ function App() {
   const teamRef = useRef(null);
 
   const scrollHandler = (section) => {
-    if (section === 'membership') membershipRef.current.scrollIntoView({ behavior: 'smooth' });
+    if (section === 'roadmap') membershipRef.current.scrollIntoView({ behavior: 'smooth' });
     if (section === 'resources') resourcesRef.current.scrollIntoView({ behavior: 'smooth' });
     if (section === 'team') teamRef.current.scrollIntoView({ behavior: 'smooth' });
   }
