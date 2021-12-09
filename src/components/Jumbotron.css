@@ -56,6 +56,21 @@
     margin-top: 55px;
 }
 
+.cta-link {
+    border: 1px solid #f5cba4;
+    padding: 10px 30px;
+    width: 300px;
+    background: inherit;
+    border-radius: 15px;
+    margin-top: 10px;
+}
+
+.cta-link a, .cta-link a:visited {
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+}
+
 /* Mobile CSS */
 @media only screen and (max-width: 768px) {
 

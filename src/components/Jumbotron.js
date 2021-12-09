@@ -20,6 +20,12 @@ function Jumbotron() {
                     <p>
                         The community is built around education, collaboration, and opportunity. Learn about web3, explore its current use cases, discover new applications, and find members to collaborate on exciting projects with.
                     </p>
+                    <button className='cta-link'>
+                        <a href="https://docs.google.com/document/d/1kMCLilkfgVOyzw9ldIYGe495vrPRw11VbeUSzP3fY-s/edit?usp=sharing"
+                            target='_blank' rel='noreferrer'>
+                            Read the Vision Doc
+                        </a>
+                    </button>
                     <div className='jt-social-links'>
                         <a href='https://twitter.com/ScrappyNfts' target='_blank' rel='noreferrer'>
                             <img src={twttr} alt='Twitter'></img>
