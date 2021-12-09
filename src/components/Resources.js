@@ -8,10 +8,15 @@ const Resources = forwardRef((props, ref) => {
         <section className='resources' id='resources' ref={ref}>
             <div className='res-container'>
                 <h2>Resources</h2>
-                <p>For a full list of all things NFT, join our Discord channel!</p>
+                <p>Here is a list of tools and resources we've built so far. To know more, join our Discord channel!</p>
                 <div className='res-items'>
                     {
-                        RESOURCES.map(res => <Resource {...res} key={res.heading} />)
+                        RESOURCES.slice(0, 3).map(res => <Resource {...res} key={res.heading} />)
+                    }
+                </div>
+                <div className='res-items'>
+                    {
+                        RESOURCES.slice(3, 4).map(res => <Resource {...res} key={res.heading} />)
                     }
                 </div>
             </div>

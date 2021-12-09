@@ -15,10 +15,10 @@ function Jumbotron() {
                 <div className='jt-content'>
                     <h1>Scrappy <br className='desktop-only' /> Squirrels</h1>
                     <p>
-                        Scrappy Squirrels is a collection of 10,000 randomly generated NFTs on the Ethereum Blockchain. Scrappy Squirrels are meant for buyers, creators, and developers who are completely new to the NFT ecosystem.
+                        Scrappy Squirrels is a collection of 10,000+ randomly generated NFTs. Scrappy Squirrels are meant for buyers, creators, and developers who are completely new to the NFT ecosystem.
                     </p>
                     <p>
-                        The community is built around learning about the NFT revolution, exploring its current use cases, discovering new applications, and finding members to collaborate on exciting projects with.
+                        The community is built around education, collaboration, and opportunity. Learn about web3, explore its current use cases, discover new applications, and find members to collaborate on exciting projects with.
                     </p>
                     <div className='jt-social-links'>
                         <a href='https://twitter.com/ScrappyNfts' target='_blank' rel='noreferrer'>

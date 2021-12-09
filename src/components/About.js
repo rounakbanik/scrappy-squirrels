@@ -14,10 +14,10 @@ function About() {
                         key={Math.random().toString()} />)}
                 </div>
                 <p>
-                    The Scrappy Squirrels are a set of extremely basic artwork generated programmatically (to see how, <a href='https://github.com/rounakbanik/generative-art-nft' target='_blank' rel='noreferrer'>click here</a>). Priced at <b>0.03 ETH</b> and with less than 60 traits to work with, these squirrels serve as the perfect gateway NFT purchase.
+                    The Scrappy Squirrels are a set of artwork generated programmatically using over 100 traits (to see how, <a href='https://github.com/rounakbanik/generative-art-nft' target='_blank' rel='noreferrer'>click here</a>). The squirrels were designed to serve as the perfect gateway NFT purchase. Learn about traits, perceived rarity, signaling, and price movements without having to invest a fortune.
                 </p>
                 <p>
-                    Learn about traits, perceived rarity, signaling, and price movements without having to invest a fortune.
+                    An NFT purchase also supports the Scrappy Team as we continue to create tools, resources, and guides to help people onboard into web3. Finally, get access to an exclusive community, guilds, roadmap unlocks, and much more!
                 </p>
             </div>
         </section>
