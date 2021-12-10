@@ -20,7 +20,7 @@ const RESOURCES = [
         img_src: ajvc,
         heading: 'web3 Concepts',
         text: 'A comic series explaining crypto concepts (w/ AJVC)',
-        link: 'https://ajuniorvc.com/startup-concepts/',
+        link: 'https://ajuniorvc.com/startup-concepts/web3-concepts/',
     },
     {
         img_src: rinkeby,
