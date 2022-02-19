@@ -15,7 +15,7 @@ const TEAM = [
     },
     {
         name: 'Yoda',
-        twitter: 'https://twitter.com/ankg404',
+        twitter: 'https://twitter.com/scrappyyoda',
         avatar: yoda,
 
     }
