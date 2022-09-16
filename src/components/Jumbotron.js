@@ -3,6 +3,8 @@ import squirrels from '../images/squirrels.gif';
 import ig from '../images/ig.png';
 import dc from '../images/dc.png';
 import twttr from '../images/twttr.png';
+import esc from '../images/etherscan2.webp';
+import opensea from '../images/opensea.png';
 
 function Jumbotron() {
     return (
@@ -13,12 +15,11 @@ function Jumbotron() {
                     <img src={squirrels} alt='Gallery of Squirrels' />
                 </div>
                 <div className='jt-content'>
-                    <h1>Scrappy <br className='desktop-only' /> Squirrels</h1>
+                    <h1>Scrappy Squirrels</h1>
                     <p>
-                        Scrappy Squirrels is a collection of 10,000+ randomly generated NFTs. Scrappy Squirrels are meant for buyers, creators, and developers who are completely new to the NFT ecosystem.
-                    </p>
-                    <p>
-                        The community is built around education, collaboration, and opportunity. Learn about web3, explore its current use cases, discover new applications, and find members to collaborate on exciting projects with.
+                        Scrappy Squirrels is an NFT project dedicated to the BUIDLers. 
+                        <br /><br />
+                        The engineers, designers and founders pushing web3 forward.
                     </p>
                     <button className='cta-link'>
                         <a href="https://docs.google.com/document/d/1kMCLilkfgVOyzw9ldIYGe495vrPRw11VbeUSzP3fY-s/edit?usp=sharing"
@@ -33,9 +34,15 @@ function Jumbotron() {
                         <a href='https://discord.gg/8UqJXTX7Kd' target='_blank' rel='noreferrer'>
                             <img src={dc} alt='Discord'></img>
                         </a>
-                        <a href='https://www.instagram.com/scrappysquirrels/' target='_blank' rel='noreferrer'>
+                        {/*<a href='https://www.instagram.com/scrappysquirrels/' target='_blank' rel='noreferrer'>
                             <img src={ig} alt='Instagram'></img>
-                        </a>
+                        </a>*/}
+                        <a href='https://etherscan.io/address/0x059cfeb97a728b3d2cfe705c809b85780f4ff143' target='_blank' rel='noreferrer'>
+                            <img src={esc} alt='Etherscan'></img>
+                        </a>                        
+                        <a href='https://opensea.io/collection/scrappy-squirrels' target='_blank' rel='noreferrer'>
+                            <img src={opensea} alt='Opensea'></img>
+                        </a>    
                     </div>
                 </div>
             </div>
