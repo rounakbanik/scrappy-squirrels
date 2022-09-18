@@ -2,10 +2,12 @@ import './About.css';
 import sq1 from '../images/Developer.png';
 import sq2 from '../images/Designer.png';
 import sq3 from '../images/Founder.png';
+import Aos from 'aos';
 
 function About() {
-    const jobArr = ['Developer', 'Designer', 'Founder'];
+    const jobArr = ['Developer', 'Designer', 'Entrepreneur'];
     var idx = 0;
+    setTimeout(() => Aos.init({ duration: 1000 }), 600);
 
     return (
         <section className='about'>
@@ -21,13 +23,13 @@ function About() {
                         </div>
                         )}
                 </div>
-                <div className='about-text'>
+                <div className='about-text' data-aos="slide-right">
                     <p>
                         Squirrels are known to exhibit the following characteristics: <b>Curiosity, Boldness, Sociability and Attraction to Food.</b>
                         <br /><br />
                         That sounds very much like our community who is hustling hard in web3. <br /><br /> <b>The Developers</b>, who are solving the tough technical challenges across innovative companies
                         <br /><br /><b>The Designers</b>, who are bringing the pandoras box of crypto to the common man AND
-                        <br /><br /><b>The Founders</b>, who hold it all together and take bold bets.
+                        <br /><br /><b>The Entrepreneurs</b>, who hold it all together and take bold bets.
                         <br /><br />
                         The Scrappy Squirrels collection is minted to support these hustlers in their journeys. There will be a set of 14,917 NFTs generated programmatically using over 100 traits.
                     </p>
