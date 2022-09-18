@@ -40,11 +40,11 @@ function Header(props) {
                                 <img src={discord_white} alt="Discord" />
                             </a>
                         </div>
-                        <div>
+                        {/*<div>
                             <a href='https://www.instagram.com/scrappysquirrels/' target='_blank' rel='noreferrer'>
                                 <img src={instagram_white} alt="Instagram" />
                             </a>
-                        </div>
+    </div>*/}
                         <div>
                             <a href='https://twitter.com/ScrappyNfts' target='_blank' rel='noreferrer'>
                                 <img src={twitter_white} alt="Twitter" />

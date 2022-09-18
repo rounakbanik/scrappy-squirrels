@@ -29,7 +29,7 @@
 }
 
 .community-container h2 {
-    font-size: 48px;
+    font-size: 40px;
     font-weight: 800;
     background: -webkit-linear-gradient(-70deg, #E9AF68 0%, #F0E398 100%);
     background-clip: text;
@@ -40,6 +40,15 @@
 .community-container p {
     font-size: 18px;
     line-height: 27px;
+}
+
+.community-container .comm-content {
+    line-height: 200%;
+    font-size: 20px;
+}
+
+.community-container ul {
+    list-style: none;
 }
 
 /* Mobile CSS */

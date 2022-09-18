@@ -28,9 +28,9 @@ function App() {
         <Jumbotron />
         <About />
         <Community />
+        <Team ref={teamRef} />
         <Membership ref={membershipRef} />
         <Resources ref={resourcesRef} />
-        <Team ref={teamRef} />
       </main>
       <Footer />
     </Fragment>

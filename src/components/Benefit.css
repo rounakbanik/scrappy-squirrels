@@ -10,7 +10,6 @@
 
 .goal h3 {
     font-size: 24px;
-    margin-top: 20px;
 }
 
 .goal a, .goal a:visited {
@@ -27,7 +26,7 @@
 }
 
 .milestone h3 {
-    font-size: 48px;
+    font-size: 36px;
     background: -webkit-linear-gradient(-70deg, #a2facf 0%, #64acff 100%);
     background-clip: text;
     -webkit-background-clip: text;

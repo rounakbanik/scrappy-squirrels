@@ -30,9 +30,13 @@
 }
 
 .about-container p {
-    text-align: center;
+    text-align: left;
     font-size: 18px;
     line-height: 27px;
+}
+
+.about-container h3 {
+    text-align: center;
 }
 
 /* Mobile CSS */

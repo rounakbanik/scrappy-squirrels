@@ -1,8 +1,8 @@
 const medium = (
     <div>
-        <p>
+        {/*<p>
             We launch the Scrappy Squirrels Medium Publication. This publication will carry articles on everything blockchain, NFTs, and web3. Articles posted will be both technical and non-technical, and of interest to developers, creators, artists, collectors, and end-users.
-        </p>
+</p>*/}
         <p>
             <a href='https://medium.com/scrappy-squirrels' target='_blank' rel='noreferrer'>Visit the Medium Publication.</a>
         </p>
@@ -77,44 +77,40 @@ const lotto = (
 const BENEFITS = [
     {
         percentage: '0',
-        heading: 'Launch of Medium Publication',
+        heading: 'Course #1: A complete guide on Developing your 10k NFT Project',
         text: medium,
     },
     {
         percentage: '25',
-        heading: 'Launch of YouTube Channel',
-        text: youtube,
+        heading: 'Project Spotlight for Community Members'
     },
     {
         percentage: '50',
-        heading: 'Scrappy Art Gala',
-        text: artgala,
+        heading: 'Course #2: A complete guide on Building a DAO from Scratch (Members Access Only)',
     },
     {
         percentage: '60',
-        heading: 'Introduction to Guilds',
-        text: guilds,
+        heading: '100 Squirrels giveaway Raffle',
     },
     {
         percentage: '75',
-        heading: 'Extend the Scrappy Universe',
-        text: universe,
-
+        heading: 'In-person WeWork Hackday for Token Holders',
+    },
+    {
+        percentage: '85',
+        heading: 'Course #3: A complete guide on building your own token (Members Access Only)',
     },
     {
         percentage: '90',
-        heading: 'Scrappy Hackathon',
-        text: hackathon,
+        heading: 'Twitter Spaces with Top Token Holders',
     },
     {
         percentage: '95',
-        heading: 'Scrappy Talks',
-        text: talks,
+        heading: 'Launch of a jobs channel and job board',
     },
     {
         percentage: '100',
-        heading: 'Scrappy Lotto',
-        text: lotto,
+        heading: 'Early access to DisruptX Labs projects only for holders',
     },
 
 ]

@@ -2,20 +2,26 @@ import './Footer.css';
 import twitter_white from '../images/twitter.png';
 import discord_white from '../images/discord.png';
 import instagram_white from '../images/instagram.png';
+import opensea from '../images/opensea.png';
 
 function Footer() {
     return (
         <footer className='footer'>
-            <p>VERIFIED SMART CONTRACT ADDRESS: <span>Coming soon!</span></p>
+            <p>VERIFIED CONTRACT ADDRESS (ETH): <span>0x059cfeb97a728b3d2cfe705c809b85780f4ff143</span></p>
             <div className='footer-social-media-links'>
                 <div>
                     <a href='https://discord.gg/8UqJXTX7Kd'>
                         <img src={discord_white} alt="Discord" />
                     </a>
                 </div>
-                <div>
+                {/*<div>
                     <a href='https://www.instagram.com/scrappysquirrels/' target='_blank' rel='noreferrer'>
                         <img src={instagram_white} alt="Instagram" />
+                    </a>
+                </div>*/}
+                <div>
+                    <a href='https://opensea.io/collection/scrappy-squirrels' className='jt-social-links' target='_blank' rel='noreferrer'>
+                        <img src={opensea} alt="Opensea" />
                     </a>
                 </div>
                 <div>

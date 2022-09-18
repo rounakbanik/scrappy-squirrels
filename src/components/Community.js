@@ -1,5 +1,8 @@
 import './Community.css';
 import community from '../images/community.png';
+import discord_cta from '../images/Discord_CTA.png';
+
+var emoji = require('node-emoji')
 
 function Community() {
     return (
@@ -9,17 +12,29 @@ function Community() {
                     <img src={community} alt="Placeholder" />
                 </div>
                 <div className='comm-content'>
-                    <h2>Join the Community!</h2>
-                    <p>As part of the Scrappy Squirrel community, you will get access to a set of libraries, tutorials, and articles created (and curated) by the team that will improve your understanding of the space (regardless of if you are a buyer, a creator, or a developer).</p>
-                    <p>
-                        Members are also encouraged to share their discoveries with the community. We aspire to become a one-stop-shop for anyone looking to get into NFTs.
-                    </p>
-                    <p>
-                        Finally, creators and builders and encouraged to collaborate, and work on exciting new projects. We can't wait to see what amazing things you build!
-                    </p>
-                    <p>
-                        <b>You do not need to buy a squirrel to be a part of the community. Everyone is welcome!</b>
-                    </p>
+                    <h2>The community</h2>
+                    <div>
+                        Find
+                        <ul>
+                            <li>
+                            {emoji.get("people_holding_hands")} Interesting people in Web3 
+                            </li>
+                            <li>
+                            {emoji.get("office")} Job opportunities
+                            </li>
+                            <li>
+                            {emoji.get("books")} Exclusive educational content
+                            </li>                          
+                        </ul>
+
+                        ... and a discord server you can call home!
+                    </div>
+                    <br />
+                    <div>
+                        <a href="https://discord.gg/8UqJXTX7Kd" target="_blank">
+                            <img src={discord_cta} width={300} alt="Join Discord"/>
+                        </a>
+                    </div>
                 </div>
             </div>
         </section>
