@@ -1,48 +1,48 @@
 const medium = (
     <div>
-        {/*<p>
-            We launch the Scrappy Squirrels Medium Publication. This publication will carry articles on everything blockchain, NFTs, and web3. Articles posted will be both technical and non-technical, and of interest to developers, creators, artists, collectors, and end-users.
-</p>*/}
+        <p>
+            We launch a series of articles that shows you how to create an NFT project from scratch. Topics included generative art, IPFS, ERC-721 contracts, web3 frontends, allowlists, and more. We also open-source our generative art library.
+        </p>
         <p>
             <a href='https://medium.com/scrappy-squirrels' target='_blank' rel='noreferrer'>Visit the Medium Publication.</a>
         </p>
     </div>
 );
 
+const spotlight = (
+    <div>
+        <p>
+            We launch <i>Project Spotlight</i> where we feature some of the best projects created by our community members. We will also advice spotlight members and make intros with influential people in our extremely strong network.
+        </p>
+        <p>
+            We will also invite exceptional builders and artists into our community by giving out Scrappy NFTs for free.
+        </p>
+    </div>
+)
+
+const daos = (
+    <div>
+        <p>
+            We launch a members-only series of articles on how to build DAOs from scratch. We also cover topics such as governance models, building DAO tooling, contributing to DAOs, etc.
+        </p>
+    </div>
+)
+
+const treasure_hunt = (
+    <div>
+        <p>
+            We create a series of articles on cryptography and how to crack codes. We will then publish an encrypted text, and series of clues to help retrieve the original message. Winners get Scrappy NFTs and prizes worth 5 ETH.
+        </p>
+    </div>
+)
+
 const youtube = (
     <div>
         <p>
-            We launch the Scrappy Squirrels YouTube Channel. We will run educational videos through this channel so as to provide an alternate medium of learning (apart from our publication).
+            We launch the Scrappy Squirrels YouTube channel and as a first order of business, convert all our content into video.
         </p>
         <p>
-            We are also exploring the possibility of creating animated shorts involving scrappy squirrels. However, we cannot make a firm commitment to this at the moment. Stay tuned for more details though!
-        </p>
-    </div>
-)
-
-const artgala = (
-    <div>
-        <p>
-            All Scrappy Squirrel NFT holders will be invited to take part in a contest where they will showcase their best artwork. The core team will award the three works we like best with prizes worth <b>3 ETH (approx. $10,500).</b>
-        </p>
-    </div>
-)
-
-const guilds = (
-    <div>
-        <p>
-            Each Scrappy Squirrel will be assigned to a guild based on their held item. Guild members will get an opportunity to script their lore, conduct meetups, and participate in friendly competition with other guilds.
-        </p>
-    </div>
-)
-
-const universe = (
-    <div>
-        <p>
-            Holders will be invited to collaborate and propose projects that extend the Scrappy Squirrels universe. This could be anything really: 3D squirrels, baby squirrels, or an entirely new species that pose a threat to our pals.
-        </p>
-        <p>
-            The project that we like best will be awarded <b>3 ETH</b>, and an opportunity to bring their project under the Scrappy Squirrel umbrella. We will also aid the team with marketing, tech, and launch.
+            We also launch a weekly Twitter Space where we talk everything web3 and blockchain with some of the smartest people in the space.
         </p>
     </div>
 )
@@ -50,7 +50,7 @@ const universe = (
 const hackathon = (
     <div>
         <p>
-            Once 90% of all squirrels have sold out, we will conduct the Scrappy Hackathon. All holders will be invited to collaborate and work on NFT projects of their choosing.
+            We conduct the Scrappy Hackathon. All holders will be invited to collaborate and work on projects of their choosing.
         </p>
         <p>
             The project we like best will be awarded <b>3 ETH</b> and the next two runners-up will be awarded <b>1 ETH</b> each. We will aid all 3 teams with marketing, tech, and launch.
@@ -58,18 +58,18 @@ const hackathon = (
     </div>
 )
 
-const talks = (
+const jobs = (
     <div>
         <p>
-            After 95% of the squirrels have sold out, we will conduct a virtual TED-like conference where we will invite esteemed speakers to talk on topics such as blockchain, NFTs, and crypto. The talks will be attended by holders only.
+            We launch an app where Scrappy members can create their professional profiles. We also create a job/gigs board and a referral system.
         </p>
     </div>
 )
 
-const lotto = (
+const infra = (
     <div>
         <p>
-            The final event of Roadmap v1.0 will be a lottery. 10 Squirrels will get a chance to win <b>1 ETH</b> each.
+            We launch a series of articles on how to go about building web3 infrastructure projects.
         </p>
     </div>
 )
@@ -77,40 +77,43 @@ const lotto = (
 const BENEFITS = [
     {
         percentage: '0',
-        heading: 'Course #1: A complete guide on Developing your 10k NFT Project',
+        heading: 'A Guide to Building NFT Projects',
         text: medium,
     },
     {
         percentage: '25',
-        heading: 'Project Spotlight for Community Members'
+        heading: 'Project Spotlight',
+        text: spotlight,
     },
     {
         percentage: '50',
-        heading: 'Course #2: A complete guide on Building a DAO from Scratch (Members Access Only)',
+        heading: 'A Guide to Building DAOs',
+        text: daos
     },
     {
         percentage: '60',
-        heading: '100 Squirrels giveaway Raffle',
+        heading: 'Treasure Hunt',
+        text: treasure_hunt,
     },
     {
         percentage: '75',
-        heading: 'In-person WeWork Hackday for Token Holders',
+        heading: 'WeWork Hackday',
+        text: hackathon,
     },
     {
         percentage: '85',
-        heading: 'Course #3: A complete guide on building your own token (Members Access Only)',
+        heading: 'A Guide to building Infra Projects',
+        text: infra,
     },
     {
         percentage: '90',
-        heading: 'Twitter Spaces with Top Token Holders',
-    },
-    {
-        percentage: '95',
-        heading: 'Launch of a jobs channel and job board',
+        heading: 'YouTube and Twitter Spaces',
+        text: youtube,
     },
     {
         percentage: '100',
-        heading: 'Early access to DisruptX Labs projects only for holders',
+        heading: 'Professional Network & Job Board',
+        text: jobs,
     },
 
 ]

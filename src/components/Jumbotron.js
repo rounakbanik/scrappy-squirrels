@@ -1,6 +1,5 @@
 import './Jumbotron.css';
 import squirrels from '../images/squirrels.gif';
-import ig from '../images/ig.png';
 import dc from '../images/dc.png';
 import twttr from '../images/twttr.png';
 import esc from '../images/etherscan2.webp';
@@ -17,9 +16,9 @@ function Jumbotron() {
                 <div className='jt-content'>
                     <h1>Scrappy Squirrels</h1>
                     <p>
-                        Scrappy Squirrels is an NFT project dedicated to the BUIDLers. 
+                        Scrappy Squirrels is a collection of 14,000 NFTs on the Ethereum blockchain. Scrappy Squirrels are meant for engineers, designers, and entreprenuers pushing web3 forward.
                         <br /><br />
-                        The engineers, designers and founders pushing web3 forward.
+                        The community is built around education, collaboration, and opportunity. Learn about web3, explore its current use cases, discover new applications, and find members to collaborate on exciting projects with.
                     </p>
                     <button className='cta-link'>
                         <a href="https://docs.google.com/document/d/1kMCLilkfgVOyzw9ldIYGe495vrPRw11VbeUSzP3fY-s/edit?usp=sharing"
@@ -39,10 +38,10 @@ function Jumbotron() {
                         </a>*/}
                         <a href='https://etherscan.io/address/0x059cfeb97a728b3d2cfe705c809b85780f4ff143' target='_blank' rel='noreferrer'>
                             <img src={esc} alt='Etherscan'></img>
-                        </a>                        
+                        </a>
                         <a href='https://opensea.io/collection/scrappy-squirrels' target='_blank' rel='noreferrer'>
                             <img src={opensea} alt='Opensea'></img>
-                        </a>    
+                        </a>
                     </div>
                 </div>
             </div>

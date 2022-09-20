@@ -6,16 +6,17 @@
     text-align: center;
 }
 
-.footer .disruptX {
-    filter: invert(100%);
-    width: 40px;
-}
-
-.footer span {
+.footer p > a, .footer p > a:visited {
+    text-decoration: none;
     background: -webkit-linear-gradient(-70deg, #a2facf 0%, #64acff 100%);
     background-clip: text;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
+}
+
+.footer .disruptX {
+    filter: invert(100%);
+    width: 40px;
 }
 
 .footer-social-media-links {

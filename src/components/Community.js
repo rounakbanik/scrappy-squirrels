@@ -2,8 +2,6 @@ import './Community.css';
 import community from '../images/community.png';
 import discord_cta from '../images/Discord_CTA.png';
 
-var emoji = require('node-emoji')
-
 function Community() {
     return (
         <section className='community'>
@@ -12,27 +10,31 @@ function Community() {
                     <img src={community} alt="Placeholder" />
                 </div>
                 <div className='comm-content'>
-                    <h2>The community</h2>
-                    <div>
-                        Find
+                    <h2>Join the Community!</h2>
+                    <p>
+                        As a member of Scrappy Squirrels, you will:
                         <ul>
                             <li>
-                            {emoji.get("people_holding_hands")} Interesting people in Web3 
+                                Network with some of the most interesting and influential people in web3.
                             </li>
                             <li>
-                            {emoji.get("office")} Job opportunities
+                                Get access to exclusive content (both technical and non-technical)
                             </li>
                             <li>
-                            {emoji.get("books")} Exclusive educational content
-                            </li>                          
+                                Post and apply for jobs/gigs
+                            </li>
+                            <li>
+                                Unlock roadmap perks such as raffles, hackathons, conferences, and more!
+                            </li>
+                            <li>
+                                Get early access to projects by DisruptX Labs
+                            </li>
                         </ul>
-
-                        ... and a discord server you can call home!
-                    </div>
+                    </p>
                     <br />
                     <div>
-                        <a href="https://discord.gg/8UqJXTX7Kd" target="_blank">
-                            <img src={discord_cta} width={300} alt="Join Discord"/>
+                        <a href="https://discord.gg/8UqJXTX7Kd" target="_blank" rel="noreferrer">
+                            <img src={discord_cta} width={200} alt="Join Discord" />
                         </a>
                     </div>
                 </div>

@@ -1,7 +1,6 @@
 import './Header.css';
 import twitter_white from '../images/twitter.png';
 import discord_white from '../images/discord.png';
-import instagram_white from '../images/instagram.png';
 import hamburger from '../images/hamburger.jpeg';
 import logo from '../images/logo.png';
 import { Fragment, useState } from 'react';

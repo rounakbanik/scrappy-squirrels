@@ -3,7 +3,7 @@
 }
 
 .community-container {
-    max-width: 1024px;
+    max-width: 1080px;
     margin: 0px auto;
     padding: 10px;
     padding-bottom: 50px;
@@ -45,10 +45,6 @@
 .community-container .comm-content {
     line-height: 200%;
     font-size: 20px;
-}
-
-.community-container ul {
-    list-style: none;
 }
 
 /* Mobile CSS */

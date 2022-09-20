@@ -1,17 +1,19 @@
 import './Footer.css';
 import twitter_white from '../images/twitter.png';
 import discord_white from '../images/discord.png';
-import instagram_white from '../images/instagram.png';
 import opensea from '../images/opensea.png';
 import disruptX from '../images/disruptx_logo.jpeg';
 
 function Footer() {
     return (
         <footer className='footer'>
-            <p>VERIFIED CONTRACT ADDRESS (ETH): <span>0x059cfeb97a728b3d2cfe705c809b85780f4ff143</span></p>
+            <p>
+                VERIFIED CONTRACT ADDRESS:<br />
+                <a href="https://etherscan.io/address/0x059cfeb97a728b3d2cfe705c809b85780f4ff143" target="_blank" rel="noreferrer">0x059cfeb97a728b3d2cfe705c809b85780f4ff143</a>
+            </p>
             <div className='footer-social-media-links'>
                 <div>
-                    <a href='https://discord.gg/8UqJXTX7Kd' target='_blank'>
+                    <a href='https://discord.gg/8UqJXTX7Kd' target='_blank' rel='noreferrer'>
                         <img src={discord_white} alt="Discord" />
                     </a>
                 </div>
@@ -31,7 +33,7 @@ function Footer() {
                     </a>
                 </div>
             </div>
-            <p>Developed with &hearts; by <a href="http://disruptx.tech/" target="_blank"><img src={disruptX} className="disruptX"/></a></p>
+            <p>Developed with &hearts; by <a href="http://disruptx.tech/" target="_blank" rel="noreferrer"><img src={disruptX} className="disruptX" alt="disruptx" /></a></p>
         </footer>
     )
 }

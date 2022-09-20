@@ -14,27 +14,30 @@ function About() {
             <div className='about-container'>
                 <h2>About the Squirrels</h2>
                 <div className='about-gallery'>
-                    {[sq1, sq2, sq3].map(img_src => 
+                    {[sq1, sq2, sq3].map(img_src =>
                         <div>
-                        <img src={img_src}
-                        alt='Sample Squirrel'
-                        key={Math.random().toString()} />
-                        <h3 className='job'>{jobArr[idx++]}</h3>
+                            <img src={img_src}
+                                alt='Sample Squirrel'
+                                key={Math.random().toString()} />
+                            <h3 className='job'>{jobArr[idx++]}</h3>
                         </div>
-                        )}
+                    )}
                 </div>
                 <div className='about-text' data-aos="slide-right">
                     <p>
-                        Squirrels are known to exhibit the following characteristics: <b>Curiosity, Boldness, Sociability and Attraction to Food.</b>
-                        <br /><br />
-                        That sounds very much like our community who is hustling hard in web3. <br /><br /> <b>The Developers</b>, who are solving the tough technical challenges across innovative companies
-                        <br /><br /><b>The Designers</b>, who are bringing the pandoras box of crypto to the common man AND
-                        <br /><br /><b>The Entrepreneurs</b>, who hold it all together and take bold bets.
-                        <br /><br />
-                        The Scrappy Squirrels collection is minted to support these hustlers in their journeys. There will be a set of 14,917 NFTs generated programmatically using over 100 traits.
+                        Scrappy Squirrels is a set of artwork generated programmatically using over 100 traits (to see how, <a href='https://github.com/rounakbanik/generative-art-nft' target='_blank' rel='noreferrer'>click here</a>). The squirrels were designed with the following characteristics in mind: <b>curiousity, boldness, sociability, and (obviously) scrappiness.</b>
                     </p>
                     <p>
-                        And the best part? <b>The first 7000 of these NFTs are free for our earliest supporters!</b>
+                        Through this project, we are building a community of:
+                        <ul>
+                            <li><b>Developers</b>, who are solving tough technical challenges across innovative companies</li>
+                            <li><b>Designers</b>, who are creating incredible art and making crypto more accessible to the masses</li>
+                            <li><b>Entrepreneurs</b>, who are making bold bets and building the next big thing</li>
+                        </ul>
+                    </p>
+
+                    <p>
+                        If this sounds like you, join our community today! To make this project accessible to all, we are giving away <b>50% of our NFTs for free</b> (up to one free NFT per wallet). Post this, squirrels will be priced at 0.05 ETH apiece.
                     </p>
                     {/*<p>
                         The Scrappy team being educators and innovators are continuously building tools and resources to help people advance into web3. Finally, these NFTs also get you access to an exclusive community, guilds, exclusive content, and much more!
