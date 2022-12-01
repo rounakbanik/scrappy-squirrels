@@ -38,8 +38,10 @@
 }
 
 .jt-image img {
-    max-width: 312px;
+    width: 312px;
+    height: 300px;
     border-radius: 15px;
+    object-fit: cover;
 }
 
 .jt-social-links img {
