@@ -1,12 +1,10 @@
 import './About.css';
-import sq1 from '../images/Developer.png';
-import sq2 from '../images/Designer.png';
-import sq3 from '../images/Founder.png';
+import sq1 from '../images/gallery-1.jpg';
+import sq2 from '../images/gallery-2.jpg';
+import sq3 from '../images/gallery-3.jpg';
 import Aos from 'aos';
 
 function About() {
-    const jobArr = ['Developer', 'Designer', 'Entrepreneur'];
-    var idx = 0;
     setTimeout(() => Aos.init({ duration: 1000 }), 600);
 
     return (
@@ -19,7 +17,6 @@ function About() {
                             <img src={img_src}
                                 alt='Sample Squirrel'
                                 key={Math.random().toString()} />
-                            <h3 className='job'>{jobArr[idx++]}</h3>
                         </div>
                     )}
                 </div>
@@ -38,6 +35,9 @@ function About() {
 
                     <p>
                         If this sounds like you, join our community today! To make this project accessible to all, we are giving away <b>50% of our NFTs for free</b> (up to one free NFT per wallet). Post this, squirrels will be priced at 0.05 ETH apiece.
+                    </p>
+                    <p>
+
                     </p>
                     {/*<p>
                         The Scrappy team being educators and innovators are continuously building tools and resources to help people advance into web3. Finally, these NFTs also get you access to an exclusive community, guilds, exclusive content, and much more!

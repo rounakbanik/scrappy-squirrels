@@ -1,5 +1,5 @@
-import rony from '../images/team/00002.png';
-import yoda from '../images/team/00011.png';
+import rony from '../images/team/rony.jpg';
+import yoda from '../images/team/yoda.jpg';
 
 var emoji = require('node-emoji');
 const em = emoji.get('coffee');
